@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#FEF3C7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Promo Icon -->
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/star_big_on"
+            app:tint="@color/warning"
+            android:contentDescription="Promo Icon" />
+
+        <!-- Promo Name -->
+        <TextView
+            android:id="@+id/tvPromoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diskon 20%"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Promo Terms -->
+        <TextView
+            android:id="@+id/tvPromoTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valid until July 31, 2024"
+            android:textSize="12sp"
+            android:textColor="#78350F"
+            android:layout_marginTop="4dp" />
+
+        <!-- Claim Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClaim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Di Klaim"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            app:backgroundTint="@color/warning"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

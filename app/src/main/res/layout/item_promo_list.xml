@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Icon/Badge -->
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/star_big_on"
+            android:tint="@color/accent"
+            android:contentDescription="Promo Icon" />
+
+        <!-- Promo Details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvPromoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diskon 20%"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvPromoTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valid until July 31, 2024"
+                android:textSize="13sp"
+                android:textColor="#6B7280"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <!-- Claim Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClaim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klaim Sekarang"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

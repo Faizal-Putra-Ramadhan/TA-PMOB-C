@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AdaKonser</string>
+
+    <!-- Taglines -->
+    <string name="tagline">Bersiaplah untuk menikmati musik langsung!</string>
+    <string name="tagline_short">Temukan konser favoritmu</string>
+
+    <!-- Main Screen -->
+    <string name="upcoming_events">Konser Mendatang</string>
+    <string name="promo">Promo</string>
+    <string name="available_promos">Promo Tersedia</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add_event">Tambah Event</string>
+    <string name="nav_promo">Promo</string>
+    <string name="nav_my_tickets">Tiketku</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Buy Ticket Screen -->
+    <string name="event_details">Detail Event</string>
+    <string name="select_promo">Pilih Promo Anda</string>
+    <string name="select_seat">Pilih Kursi</string>
+    <string name="personal_info">Informasi Pribadi</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="ticket_type">Tipe Tiket</string>
+    <string name="selected_seat">Kursi Dipilih</string>
+    <string name="total">Total</string>
+    <string name="order_now">Pesan Sekarang</string>
+
+    <!-- Form Labels -->
+    <string name="full_name">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="phone">No Telepon</string>
+    <string name="event_title">Judul Event</string>
+    <string name="description">Deskripsi</string>
+    <string name="date">Tanggal</string>
+    <string name="time">Jam</string>
+    <string name="location">Lokasi</string>
+    <string name="artist">Artis/Pengisi acara</string>
+    <string name="price">Harga</string>
+    <string name="stock">Stok</string>
+    <string name="discount">Diskon (%)</string>
+    <string name="start_date">Tanggal Mulai</string>
+    <string name="end_date">Tanggal Berakhir</string>
+    <string name="terms">Syarat Dan Ketentuan</string>
+
+    <!-- Buttons -->
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Hapus</string>
+    <string name="add">Tambah</string>
+    <string name="share">Share</string>
+    <string name="claim">Klaim Sekarang</string>
+    <string name="view">Lihat</string>
+    <string name="manage_tickets">Kelola Tiket</string>
+    <string name="add_ticket_type">Tambah Tipe Tiket</string>
+    <string name="create_promo">Buat Promo</string>
+    <string name="save_changes">Simpan Perubahan</string>
+    <string name="save_event">Simpan Event</string>
+
+    <!-- Admin Section -->
+    <string name="admin_dashboard">Dashboard Admin</string>
+    <string name="welcome_admin">Selamat Datang, Admin</string>
+    <string name="total_events">Event Mendatang</string>
+    <string name="total_tickets_sold">Total Tiket Terjual</string>
+    <string name="revenue">Pendapatan</string>
+    <string name="add_new_event">Tambah Event Baru</string>
+    <string name="manage_existing_events">Kelola Tiket Event yang Ada</string>
+    <string name="create_new_event">Buat Event baru dan atur Tiket</string>
+    <string name="manage_event_tickets">Kelola tiket untuk Event yang ada</string>
+    <string name="add_event">Tambah Event</string>
+    <string name="manage_tickets_title">Kelola Tiket</string>
+    <string name="manage_promos">Tambah Promo</string>
+    <string name="current_tickets">Tipe Tiket</string>
+    <string name="existing_promos">Promo Yang Ada</string>
+    <string name="create_new_promo">Buat Promo Baru</string>
+
+    <!-- Ticket Details -->
+    <string name="my_ticket">Tiket Saya</string>
+    <string name="ticket_details">Detail Tiket</string>
+    <string name="qr_code">QR Code</string>
+    <string name="scan_qr">Scan QR Code untuk validasi tiket</string>
+    <string name="ticket_holder">Pemegang Tiket</string>
+    <string name="venue">Tempat</string>
+
+    <!-- Messages -->
+    <string name="order_success">Pemesanan berhasil!</string>
+    <string name="order_failed">Pemesanan gagal</string>
+    <string name="fill_all_fields">Mohon lengkapi semua data</string>
+    <string name="select_seat_first">Mohon pilih kursi</string>
+    <string name="event_saved">Event berhasil disimpan</string>
+    <string name="event_save_failed">Gagal menyimpan event</string>
+    <string name="ticket_added">Tiket berhasil ditambahkan</string>
+    <string name="ticket_add_failed">Gagal menambahkan tiket</string>
+    <string name="ticket_deleted">Tiket berhasil dihapus</string>
+    <string name="ticket_delete_failed">Gagal menghapus tiket</string>
+    <string name="promo_added">Promo berhasil ditambahkan</string>
+    <string name="promo_add_failed">Gagal menambahkan promo</string>
+    <string name="promo_deleted">Promo berhasil dihapus</string>
+    <string name="promo_delete_failed">Gagal menghapus promo</string>
+    <string name="promo_claimed">Promo diklaim! Gunakan saat pembelian tiket</string>
+    <string name="changes_saved">Perubahan disimpan</string>
+    <string name="invalid_discount">Diskon harus antara 0-100</string>
+
+    <!-- Empty States -->
+    <string name="no_tickets">Belum ada tiket</string>
+    <string name="order_tickets_now">Pesan tiket konser favoritmu sekarang!</string>
+    <string name="no_events">Belum ada event</string>
+    <string name="no_promos">Belum ada promo</string>
+
+    <!-- Others -->
+    <string name="upload_image">Upload Gambar</string>
+    <string name="recommended_size">Recommended size: 1080x1920px</string>
+    <string name="additional_info">Tambahkan informasi atau aturan tambahan</string>
+    <string name="back">Back</string>
+    <string name="promo_info">Klaim promo untuk mendapatkan diskon spesial!</string>
+    <string name="use_promo_at_checkout">Klaim promo di halaman pembelian tiket</string>
+</resources>
