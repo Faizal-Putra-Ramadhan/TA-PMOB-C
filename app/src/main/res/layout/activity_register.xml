@@ -25,8 +25,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:src="@drawable/ic_ticket"
-                android:tint="@color/primary"
-                android:contentDescription="App Logo" />
+                android:contentDescription="App Logo"
+                app:tint="@color/sodark" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -41,7 +41,7 @@
                     android:text="Daftar Akun"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textColor="@color/primary" />
+                    android:textColor="@color/sodark" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -171,6 +171,7 @@
                     android:id="@+id/btnRegister"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
+                    android:backgroundTint="@color/sodark"
                     android:text="Daftar"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -182,6 +183,7 @@
                     android:id="@+id/btnBackToLogin"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
+                    android:textColor="@color/sodark"
                     android:text="Sudah punya akun? Login"
                     android:textSize="14sp"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
