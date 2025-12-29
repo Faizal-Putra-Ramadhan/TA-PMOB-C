@@ -2,6 +2,7 @@
 <resources>
     <!-- Primary Colors -->
     <color name="primary">#2563EB</color>
+    <color name="sodark">#000000</color>
     <color name="primary_dark">#1E40AF</color>
     <color name="primary_light">#3B82F6</color>
 
