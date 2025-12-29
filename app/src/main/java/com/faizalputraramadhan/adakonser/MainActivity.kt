@@ -19,6 +19,7 @@ import com.faizalputraramadhan.adakonser.models.Event
 import com.faizalputraramadhan.adakonser.models.Promo
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+
 class MainActivity : AppCompatActivity() {
     private lateinit var dbHelper: DatabaseHelper
     private lateinit var eventRecyclerView: RecyclerView
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         eventRecyclerView = findViewById(R.id.recyclerViewEvents)
         promoRecyclerView = findViewById(R.id.recyclerViewPromos)
-        bottomNav = findViewById(R.id.bottomNavigation)
+        bottomNav = findViewById(R.id.UserNavigation)
 
         setupRecyclerViews()
         loadEvents()
