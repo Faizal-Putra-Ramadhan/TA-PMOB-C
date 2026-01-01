@@ -13,12 +13,15 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/primary"
+        android:background="@color/background"
         android:elevation="4dp"
-        app:titleTextColor="@android:color/white"
-        app:title="AdaKonser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:title="AdaKonser"
+        app:titleTextAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        app:titleTextColor="@color/black" />
 
     <!-- ScrollView for content -->
     <ScrollView
